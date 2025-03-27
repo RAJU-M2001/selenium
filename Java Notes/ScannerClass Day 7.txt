@@ -1,0 +1,56 @@
+Scanner :
+==========
+		*It is a predefined class 
+		*Scanner Class Present In java.util.package.
+		*To Get The Input From The User (or) Run-time.
+
+Syntax :
+
+	Scanner refName = new Scanner(System.in);
+
+where
+ 
+	Scanner = class
+
+	System.in ---> To Take The Input From Console
+        System.out ---> To print the value in console
+
+
+
+Scanner Methods : 
+=================
+ 
+
+For String :
+
+next() : Java and Python
+
+	Accepts One Value
+	After The Space It Won't Accept.
+
+
+nextLine() : Java and Selenium
+ 
+	Accepts More Than One Value 
+	After The Space It Will Accept.
+
+
+nextInt() :
+
+           It Accepts A Integer Values Like Whole Numbers.
+
+nextFloat():
+
+    It Accepts A Decimal Values.
+
+
+
+
+
+
+
+
+
+
+
+

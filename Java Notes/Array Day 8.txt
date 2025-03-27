@@ -1,0 +1,81 @@
+Array :
+=======
+
+        	* Storing a Multiple values in a single variable.
+
+	        * It is a non-primitive datatype.
+
+Syntax :
+========
+
+DataType variableName [] = new DataType [length];
+
+Eg :
+=====		
+int a [] = new int [3];
+
+[3] ----> We Give Length
+
+length :   1 2 3 
+index  :   0 1 2
+
+
+It is Index Based.
+
+index Starts From 0 to n-1 
+
+where n = Length
+
+
+Dis Advantages :
+=================
+
+It Will Support Similiar DataType.
+
+It Has Fixed Length.
+
+It Has High Memory Wastage ....
+
+But It can be Overcome By Collection.
+
+
+Notes :
+==========
+
+*If we not initialize the value, the default value of the given datatype will be printed.
+
+*If we give duplicate values and override the index, the last value will be printed.
+
+
+
+foreach (or) enhancedforloop
+=========================
+
+for(datatype refname  :  ArrayVariablename){
+syso(refname);
+}
+
+
+
+
+
+
+
+
+
+
+
+Multidimensional Array (or) 2D Array:
+=====================================
+
+* A multidimensional array is an array of arrays.
+* Multidimensional arrays are useful to store data as a tabular form, like a table with rows and columns..
+
+Syntax:
+========
+
+Datatype variableName [][]   =  new Datatype[R-length][C-length];  
+
+
+
+

@@ -1,0 +1,39 @@
+Windows handling : 
+--------------------
+
+	Window handle function helps in getting id of all the windows.
+
+
+Methods : 
+
+* getWindowHandle() :
+---------------------- 
+
+		    It returns a id of the current window (parent window)
+
+		    It's return type is String.
+
+* getWindowHandles() :
+----------------------- 
+
+		    It returns all id of the active window 
+
+		    It's return type is Set<String>.
+
+		    Each Window has a unique id so it's return type will be Set.
+
+
+Syntax:-
+---------
+
+1. String refname = driver.getWindowHandle();
+2. Set<String> refname = driver.getWindowHandles();
+
+Switching to a window:
+
+driver.switchTo().window(id);
+
+driver.switchTo().window(id).getTitle();
+
+
+

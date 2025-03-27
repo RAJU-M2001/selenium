@@ -1,0 +1,79 @@
+Actions:
+-----------
+
+	It is a class
+
+	It Performs the mouse and keyboard actions.
+
+	There are complex interactions like Drag-n-Drop and Double-click which cannot be done by simple         WebElement commands. To handle those types of advance actions we have the Actions class in Selenium.
+
+Syntax:
+---------
+ 
+	Actions objName = new Actions(driver);
+
+Methods in Actions class of Selenium
+
+
+There are a lot of methods in this class which can be categorized into two main categories:
+
+
+•	Mouse Events
+•	Keyboard Events
+
+Mouse based actions:
+---------------------
+
+	* click[WebElement] --> Clicks at the current mouse location.
+
+	* contextClick [WebElement] --> Performs a right-click at the current mouse location.
+
+	* doubleClick [WebElement] --> Performs a double-click at the current mouse location.
+
+	* moveToElement[WebElement] --> Moves the mouse to the middle of the element
+
+	* dragAndDrop[WebElement Source , WebElement Target] --> Click-and-hold at the location of the source                               element, moves to the location of the target element
+
+	* clickandHold() -->  perform long click and holds with out releasing it.
+
+	* release() --> To release an element that has been in hold by the mouse.
+
+For mouse based actions methods :
+
+			  	We must give build() and perform(). 
+
+				build() ---> all the actions gathered which are ready to be performed.
+
+				perform() ----> perform a sequence of actions.
+
+**********************************************************************************
+
+
+
+Keyboard based action :
+-------------------------
+
+Robot class:
+-------------
+It can be used to trigger the input events like mouse move, mouse click, keypress,
+      		            KeyPress 
+	       	            KeyRelease  
+
+KeyEvent -> is a class and it performs the keyboard function.
+
+It is a part of java api awt package
+
+VK : Virtual Key   
+
+Syntax  : 
+------------
+
+	Robot r = new Robot()
+	r.keyPress(KeyEvent.anyfunction) 
+	r.keyRelease(KeyEvent.anyFunction)			
+
+
+			
+
+
+

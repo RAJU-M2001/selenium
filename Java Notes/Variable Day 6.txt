@@ -1,0 +1,53 @@
+Variables :
+============
+
+
+            * Variable is like a container to store the data values.
+
+            * Variable is nothing but another name of reference name.
+
+            * Variable name is like a short name like(a, b, c) or descriptive name (age, name, value)
+
+            * Variable name is starts with letter eg: (a1 )
+
+            * Variable name cannot starts with number eg: (1a)  number_1, num$, (invalid --> num@1)
+
+            * Variable Declaration :
+
+			DataType variableName = VariableValue;
+
+             eg :
+ 	                int a = 17;
+                                 
+
+
+Types :
+-----------
+
+1. Class Variable or Instance Variable or Global variable
+2. Local Variable.
+
+
+
+1. Class Variable or Instance variable :
+
+		*class Variable present in must be outside the method and inside the class .
+		
+		*It's lifecycle will be through out the class.
+
+		*No need to initialize the class variable.  int a = 2;  int b;
+		
+		*If we not initialize the value to the variable, the default value of the given datatype which                  will be printed.
+
+
+
+2. Local Variable :
+	  	
+		*Local variable must be inside the method.
+		
+		*It's lifecycle will be through out the method.
+
+		*we must initialize the local variable.
+
+                *If we give local and class variable as a same reference name the priority go to local                           variable.
+

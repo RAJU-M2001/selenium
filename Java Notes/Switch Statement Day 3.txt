@@ -1,0 +1,34 @@
+Switch Statement
+================
+
+* It is used to execute one statement
+* There can be one or N number of case values for a switch expression.
+* The case values must be unique. In case of duplicate value, it renders compile time error.
+
+
+Syntax:
+======
+
+datatype refname = value;
+
+ switch(refname){
+            case value:
+                    // code to be executed;
+             break;
+   
+            case value:
+                    // code to be executed;
+             break;
+          
+             default :
+                   code to be executed, if all cases are not matched;
+
+                      }
+
+
+
+
+
+
+           
+

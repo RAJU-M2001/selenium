@@ -1,0 +1,22 @@
+Operators:
+------------
+
+Operators is like a special symbols that used to perform operations on variables and values.
+
+
+1. Arithmetic Operators
+2. Relational (or) Comparision Operators
+3. Logical Operators
+
+
+
+1. Arithmetic Operators:
+-------------------------
+
++, -, *, /, %
+
+
+2. Relational (or) Comparision Operators:
+--------------------------------------------
+
+==, !=, <, <=, >, >=

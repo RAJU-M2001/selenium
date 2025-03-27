@@ -1,0 +1,55 @@
+String :
+========
+
+* Collection of group of words or special characters must enclosed with in the double quotes.
+
+* It is a index based.
+
+* It is a non-primitive datatype. 
+
+* String is also a predefined class.
+
+
+String Functions Or Manipulation or Methods :-
+============================================
+
+String s = "Welcome To Java";    
+
+s.length()
+
+s.equals()
+
+s.equalsIgnoreCase()
+
+s.toUpperCase()
+
+s.toLowerCase()
+
+s.startsWith()
+
+s.endsWith()
+
+s.contains()
+
+s.indexOf()  //----> value
+
+s.lastIndexOf() //----> value
+
+s.charAt() //---> index
+
+s.replace("programming","Java") 
+
+s.subString(3, 11)
+
+s.isEmpty()
+
+s.split(" ")    
+
+s.trim()
+
+s.concat(" Concepts")
+
+
+
+
+

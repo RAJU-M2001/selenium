@@ -1,0 +1,42 @@
+Looping Statements (or) Iteration Statements
+=============================================
+
+1. ForLoop
+2. WhileLoop
+3. DoWhileLoop
+
+
+
+1. ForLoop:
+  ===========
+
+*forLoop
+*Nestedforloop
+*foreachloop (or) enhancedforloop
+
+
+
+1. forloop:
+         
+* The function repeatedly, when condition becomes true
+* It is a index based
+
+Syntax:
+=======
+for(initialization; condition; iteration){    //iteration (increment  (or)  decrement)
+//printstatement
+}
+
+for(int i = 0; i<args.length; i++ (or) i--){       i++   --->  i+1       i--   -->  i-1
+// Code         
+}
+
+
+for(int i = 0;  i<=20; i++ (or) i--)  {
+//code
+}
+
+
+
+
+

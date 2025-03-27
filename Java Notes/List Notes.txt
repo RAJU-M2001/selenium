@@ -1,0 +1,157 @@
+Wrapper Class :
+=============
+
+* Convert datatype into class object.
+
+
+Collection :
+==========
+	   A Group Of Objects is called Collection.
+
+	   It is an Interface.
+
+	   It Supports Dissimiliar datatype.
+
+	   It Has Low Memory Wastage.
+
+	   It doesn't have any Fixed Length.
+
+
+
+Interview Qn:
+============
+1. What is the super class of all classes?
+= Object (parent for all class)
+
+***********************************************************************************************
+Types :
+=======
+
+List ( Interface )
+
+Set  ( Interface )
+
+Map ( Separated Interface )
+
+
+
+List  : 
+----------
+	It is an Interface.
+
+	It is a index based.
+
+	It does allow duplicate values.
+
+  	It Prints in insertion order.
+
+
+Syntax :
+--------------
+		List <WrapperClass> refName = new (types of list) <WrapperClass>();
+
+	where 
+
+		List ----> Interface
+		Types of List -----> Class
+		< > ----> Generics -----> For Type Safety.
+
+
+***********************************************************************************************
+
+				*****************List Types :********************* 
+
+* Array List ( Class ) 				       * Linked List  ( Class )                                                   * Vector ( Class )
+								
+								
+								
+
+Array List :                                                                   				 Linked List :                
+==========                                                                                               ===========
+                        
+Syntax :                                                                                                 Syntax :
+--------------                                                                                           -------------
+List <WrapperClass> refName = new ArrayList<WrapperClass> ();                                            List <WrapperClass> refName = new LinkedList<WrapperClass> ();
+
+
+	
+Def : 										                       Def :							
+	Searching And Retrieving is very easy.						                       Insertion And Deletion is Easy
+	Insertion And Deletion is difficult						                       Searching And Retrieving is difficult.	
+	ASynchronized. 								                               ASynchronized. 
+	Thread is not  Safe.... But fast Process						               Thread is not Safe.... But fast Process
+
+
+
+Vector :
+========
+Syntax :
+-------------- 
+	List <WrapperClass> refName = new Vector<WrapperClass> ();
+	    
+Definition :
+	     Synchronized
+	     Thread Safe ... But it is a slow process
+
+
+**********************************************************************************************************************************************************************
+
+
+Methods :
+=========== 
+
+
+add()   size()    get()    set()   remove()  indexOf()   contains()    clear()   addAll()  retainAll()  removeAll()  
+
+
+
+*************************************************************************************************************************************************************************
+ 
+
+Set ( Interface ) :
+===================
+
+		  It is a Interface.
+		
+		  It does not have any specific order.
+
+		  It does not allow Duplicate values.
+
+		  It is a value based.
+
+
+Syntax : Set <WrapperClass> refName = new TypesOfSet <WrapperClass> ();
+		  
+
+Types : 
+------------
+
+HashSet (class)
+
+       LinkedHashSet (class)
+
+                    TreeSet (class)
+
+HashSet : 
+---------------
+
+	It Prints in Random Order.
+	It will not allow Duplicate Values.
+	It will allow Single null value . not a duplicate null values.
+
+LinkedHashSet : 
+-----------------------
+
+	It Prints in Insertion Order.
+	It will not allow Duplicate Values.
+	It will allow Single null value . not a duplicate null values.
+
+TreeSet : 
+---------------
+
+	It Prints in Ascending Order.
+	It will not allow Duplicate Values.
+	It will not allow even Single null value .
+
+
+***************************************************************************************************************************************************************************

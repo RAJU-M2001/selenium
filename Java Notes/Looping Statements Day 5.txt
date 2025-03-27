@@ -1,0 +1,107 @@
+Looping Statements (or) Iteration Statements
+=============================================
+
+1. For Loop
+2. While Loop
+3. Do - While Loop
+
+
+
+
+1. For Loop:
+ -----------------
+
+* For Loop
+* Nested For Loop                                                    
+* For Each Loop (or) enhanced forloop
+
+
+* For Loop:
+         
+          Function repeatedly when condition become true
+          Index Based -------> Starts from 0
+
+
+Syntax:
+---------------
+for(initialization; condition; iteration){  --> Updation (increment (or) Decrement)
+//code 
+}
+
+
+
+for(int i = 0; i<args.length; i++ (or) i--){       i++   --->  i+1       i--   -->  i-1
+// Code         
+}
+
+
+for(int i = 0;  i<=20; i++ (or) i--)  {
+//code
+}
+
+
+
+* Nested For Loop :
+
+                It means For loop contains inside another For loop
+                It has the matrix format
+
+
+                 for(int i = 0; i<args.length; i++ (or) i--){  --> Outer Loop
+               for(int j = 0; j<args.length; j++ (or) j--){ ---> Inner Loop
+
+             }
+         }
+
+
+
+2. While Loop:
+   =============
+
+It means entry level condition checking. It will check the condition once it is true only what action to be performed inside loop it will executed or else it won't executed.
+
+Syntax:
+========
+
+initialization;
+
+while(Condition){
+
+instruction;
+
+iteration;
+
+}
+
+
+3. Do While Loop:
+    ===============
+
+It means exit level condition checking. It won't check the condition first it will do the action what we performed in loop atleast once. After it will check the condition, then condition is true again it will prints the value.
+
+do {
+	
+instruction;
+
+iteration;
+			
+} while (condition);
+		
+
+
+
+
+Jump Statements:
+==================
+
+1. break   -   It will exit from the current loop
+2. continue - It will skip the particular iteration.
+
+
+
+
+
+
+
+
+

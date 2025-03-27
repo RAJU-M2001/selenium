@@ -1,0 +1,208 @@
+Access Modifier (or) Access Specifier
+=================================
+1) PUBLIC: Global level access [ Inside & outside package ]
+2) PRIVATE: Class Level Access [ Inside the class ]
+3) PROTECTED: Same like public but we use “extends” keyword
+4) DEFAULT: Package Level Access
+
+
+
+
+OOPS
+=========
+Object Oriented Programming structure/system
+
+
+The structure of implementation in which our programmes
+are organized in the collection of Class,Methods,Objects
+
+Class: collection of methods and objects
+
+methods: Set of actions/logic to be performed
+
+Object: 	Instance of class
+	new keyword- it allocates new memory
+	it helps to call the method
+
+	
+Oops Concepts :
+=================
+Encapsulation
+Inheritance
+Polymorphism
+Abstraction
+
+***********************************************************************************************
+Encapsulation :
+==============
+
+The process of Binding Code And Data together into a Single entity(information).
+
+Ex:
+----
+
+Capsule  --->    Medicines(Data's)     +      cover(Binding code)     ===>  Process of encapsulation
+
+***********************************************************************************************
+Inheritance :
+==============
+
+Accessing one class property into another class  by using "extends" keyword
+Relationship between parent class and the child class
+
+1. Single inheritance
+2. Multiple inheritance
+3. Multilevel inheritance
+4. Hierarchical inheritance
+5. Hybrid inheritance
+
+Single:
+--------------
+one parent class accessed by one child class
+
+Ex:
+----
+
+  A ------> B
+
+
+Syntax:
+=======
+
+Child class extends parent class
+
+Multiple:
+-----------------
+
+Two parent class accessed by one child class
+this method is not possible in java due to priority issues.
+By using INTERFACE,we can overcome
+
+Multilevel:
+----------------------
+
+One parent class(a) is accessed by one child class(b) which is being accessed by another 
+child class(c)
+
+A ---->  B-------> C--------->D----------->E
+
+Hierarchical:
+---------------------
+
+one parent more than one child
+
+
+A
+
+B   C
+
+Hybrid:
+--------------
+
+combination of any two
+
+eg:-
+
+(single and multiple) 
+multilevel and single
+single and hierarchical
+hierarchical and multilevel
+
+Syntax : 
+----------------
+
+child class extends parentclass
+
+
+***************************************************************************************************************************************
+
+
+Polymorphism : 
+=================
+
+	One task can be perform in many ways.
+
+Poly - many
+morphism  - forms.
+
+Types :
+========
+
+	1. Method overloading
+	2. Method overriding 
+
+
+Method Overloading :
+=================== 
+
+	* In a Same Class the methods name will be same.
+
+	* But Arguments (Or) Parameters will be different.
+
+	Depend Upon 
+
+		   Datatype            ------->  Single datatype
+ 		   
+		   Datatype order      ------->  Different datatype
+ 	           
+		   Datatype count      ------->  Same Datatype
+	
+ 	It is Also Known as Compile Time Polymorphism Or Static Binding.
+
+
+
+Method Overriding:
+=================
+	
+ 		Class names are different but Methods name and Arguments names are same
+
+		It is also known as Run Time Polymorphism or Dynamic Binding.
+
+*************************************************************************************************************************
+
+
+*************************************************************************************************************************
+Abstraction :
+==============
+
+	The process of hiding the Implementation Part.
+
+Types 
+=======
+
+	1. Partial Abstraction (or) Abstract Class
+	
+	2. Fully Abstraction (or) Interface.
+
+Abstract Class :
+		 
+ 			It Supports Abstract Method And Non- Abstract Method.
+			
+			We Cannot Create An Object For Abstract Class Because There
+			is no Implementation part.
+			
+			By Using "extends" keyword we can access Abstract Class.
+
+			public abstract keyword is mandatory.
+
+			there is no implementation part, only signature part
+
+Interface :
+		 
+                        An Interface is an blueprint of the class.
+
+ 			It Supports Only Abstract Method .
+			
+			We Cannot Create An Object For Interface Because There is 
+			no Implementation part.
+			
+
+			By Using "implements" keyword we can access Interface.
+
+
+			public abstract keyword is default here .
+
+
+**********************************************************************************************************************************************************
+
+

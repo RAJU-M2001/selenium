@@ -1,0 +1,82 @@
+String Types :
+=================
+
+1. Mutable (Non literal)   ---> Changeable 
+2. Im Mutable (Literal)    ---> Unchangeable 
+		
+***********************************************************************************************************************
+
+ImMutable : (Literal)
+-----------------------
+
+Syntax  : String refName = "program";     // Immutable or Literal    
+
+When we do :                                                   String s = "Car";
+                                                               String s1 = "car";
+    
+	    duplicate value ----- > it will share the memory    
+
+	    Concatenation ---->  it will create the new memory.  s1 = s1.concat(s2);   
+
+Location : String Constant Pool
+
+***********************************************************************************************************************************************************
+
+Mutable : (Non Literal)
+------------------------
+
+String Buffer And String Builder
+
+Syntax : 
+--------------
+
+StringBuffer refName = new StringBuffer("ABC");   StringBuffer sb = new StringBuffer("Apple");
+                                                  StringBuffer sb1 = new StringBuffer("Apple");
+StringBuilder refName = new StringBuilder("ABC");
+
+Location : Mutable Stored in HeapMemory
+
+When We Do
+--------------------
+
+	    duplicate value ----- > it Will create new memory.     
+                     
+ 	    Append ---->   The memory will be shared.      sb = sb.append(sb1); 
+
+String Buffer :
+-------------------
+
+		It is a mutable.
+
+		And it is synchronized .. [Waits]
+
+		One by one process . it is a thread safe . But it is a slow process.
+
+
+
+		 
+String Builder :
+-----------------------
+
+		It is a mutable.
+
+		And it is ASynchronized .. 
+
+		It is not a thread safe . But it is a fast process.
+
+
+
+MEMORY
+==========
+
+The process where the programs and services are allocated dedicated to virtual memory spaces
+Stack Memory -> Static Memory Allocation 
+Eg: primitive
+
+Heap Memory-> Dynamic Memory Allocation
+Eg: Non-primitive
+
+To find out the memory: 
+System.identityHashCode(refName);  //1523659988 
+***********************************************************************************************************************************************************
+

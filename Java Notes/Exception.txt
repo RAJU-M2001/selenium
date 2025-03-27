@@ -1,0 +1,130 @@
+Exception :
+============
+
+	* Exception is like a run time error. 
+
+        * An exception is an unwanted or unexpected event, which occurs during the execution of a program,         that disrupts the normal flow of the program. Program's instructions.
+
+	* When Exception occurs the program will be terminated at the line itself.
+
+	* If Exception occurs we can handle by the code of our program.
+
+
+Exception Types :
+==================
+
+1. Checked (Or) Compile Time Exception
+
+2. Unchecked (Or) Run-Time Exception
+
+
+Compile Time Exception :
+========================
+
+		   File Not Found Exception
+
+                   Interrupted Exception
+		
+		   IO Exception
+
+		   Class not found Exception
+
+		
+Run-Time Exception :
+=======================
+		
+		    Arithmetic Exception             
+
+		    Null Pointer Exception
+
+ 		    Input MisMatch Exception   
+
+	            Array Index Out Of Bound Exception  
+
+    	            String Index Out Of Bound Exception
+
+ 	            Index Out Of Bound Exception
+
+  	   	    Number Format Exception
+
+********************************************************************************************* 
+
+Exception Hierarchy
+======================
+
+Parent class of Exception is Throwable.
+
+Parent class of all classes in java is Object.
+
+parent of interface is Iterable or Search Context.
+
+**********************************************************************************************
+Exception Handling :
+=====================
+
+try
+
+catch
+
+finally
+
+throw
+
+throws
+
+
+Select The Exception Line ----> R.C ----> SurroundWith -----> Try Catch Block
+
+
+try :
+
+      It will try the exception.
+
+      
+
+try{
+//code
+}
+
+catch :
+
+catch(ArrayIndexOutOfBoundsException e) {
+			
+		}
+
+      it will catch the Exception.
+
+
+finally :
+
+	Whether the exception occurs or not, the finally block will be executed automatically at the time itself.
+
+The finally block follows a try block or a catch block. A finally block of code always executes, irrespective of occurrence of an Exception.
+
+finally{
+
+}
+
+throw :
+	
+	It is inside the method.
+
+	it will throw the exception.
+	
+	Throw It Will throw only one Exception.	
+	
+throws : 
+
+	 	 
+
+	It Will declare the Exception.	
+
+        It is in the method level. 
+
+	Throws it will declare more than one Exception .
+
+
+
+
+
+

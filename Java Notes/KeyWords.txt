@@ -1,0 +1,75 @@
+Keywords:
+===========
+
+keyword's are the reserved word whose meaning is already defined in the compiler.
+
+Types Of KeyWords :    byte a = 100;   byte int = 127;
+==================
+
+Static 
+
+Final
+
+Finally
+
+Finalize
+
+this
+
+super
+
+void
+
+
+
+1. Static :
+==========
+
+It is A Keyword 
+
+It can Be Used In Two Levels .
+
+		Method Level
+
+		Variable Level 
+
+Once we declare the method and variable as a static 
+Without creating the object we can call the static method and static variable.
+
+We Cannot give Static In Class Level.
+
+2. Final :
+==========
+
+final is a Keyword .
+It Can be used in Three Levels.
+
+1. Class
+2. Method
+3. Variable 
+
+Final Class Cannot Be Inheritance.
+Final Method Cannot Be overriden.
+Final variable value Cannot Be Changed.
+
+
+3. this : Current Class Reference
+
+4. super : Parent class Reference
+
+5. Finally :
+===========
+
+	Finally Is A Block It Can Be Used In Exception handling.
+
+6. finalize : 
+===========
+	  
+	  Finalize it is method. 
+	  
+	  It removes the garbage values.
+7. void 
+=========
+                
+             void keyword specifies that a method should not have a return value
+

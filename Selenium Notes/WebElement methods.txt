@@ -1,0 +1,22 @@
+WebElement Methods :
+=====================
+
+
+* sendkeys()  ----->  We pass the input values
+
+* click() ----> To click the webelement
+
+* clear() ----> It will clear the passed data
+
+* getText() ---> To get the text of the webelement is present in application
+
+* getAttribute() :
+
+                  refname.getAttribute("name")  ---> input value that we passed into a textbox
+
+* isDisplayed() ---> to check whether an element is visible (or) available in page.
+
+* isEnabled() ---> to check whether an element is editable (or) clickable
+
+* isSelected() --->  to check whether an element is selected (or) not
+

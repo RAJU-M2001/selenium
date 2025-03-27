@@ -1,0 +1,220 @@
+Operators:
+-----------
+
+Operators is like a special symbols that used to perform operations on variables and values.
+
+Types:
+-------
+
+1. Arithmetic Operators
+2. Relational Operators (or) Comparision Operators
+3. Logical Operators
+
+
+1. Arithmetic Operators:
+-------------------------
+
++, -, *, /, %
+
+
+2. Relational Operators (or) Comparision Operators:
+----------------------------------------------------
+
+==, !=, <, >, <=, >=
+
+
+3. Logical Operators:
+-----------------------
+
+* && --> LogicalAND  It returns true, if both conditions are satisfied
+* || --> LogicalOR   It returns true, if either one of the conditions will be satisfied
+* ! --> LogicalNOT   It reverse the result, if result is true it will change false.
+
+
+
+Control flow statements:
+-------------------------
+1. conditional statements (or) Selection statements
+2. Switch Statements
+3. Looping statements (or) Iteration statements
+4. Jump statements
+
+
+
+1. Conditional statements (or) Selection statements:
+------------------------------------------------------
+
+* if
+* if-else
+* else if
+* nested if
+
+
+1. if:
+----------
+
+* It is used to test the condition.
+* It is used for single statement.
+
+syntax:
+---------
+initialization;
+
+if(condition){
+
+//code to executed
+
+}
+
+
+
+2. if-else:
+------------
+
+If the condition is satisfied in the first condition itself, it will print action perform in the begining.
+If it fails then statement given in the else gets printed.
+
+
+syntax:
+---------
+initialization;
+
+if(condition){
+
+//code to be executed
+
+}
+
+else{
+
+//Code to be executed
+
+}
+
+
+
+3. else if:
+------------ 
+
+
+* It helps to run a specific block of a program. If the condition is true or else, it will check other 
+  conditions.
+
+
+Syntax:
+--------
+
+initialization;
+
+if(condition){
+
+//code to be executed
+
+}
+else if(condition){
+
+//code to be executed
+
+}
+
+else if(condition){
+
+//code to be executed
+
+}
+
+else{
+
+//Code to be executed
+
+}
+
+
+
+4. Nested if:
+---------------
+
+A if contains another if is known as nested if.
+
+
+Syntax:
+---------
+
+initialization;
+
+if(condition){  //Outer if
+
+
+if(condition){  //inner if
+
+//statements
+
+}
+else{
+
+//statements
+
+}
+
+
+
+}
+
+else{  //outer else 
+
+//statements
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

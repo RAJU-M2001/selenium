@@ -1,0 +1,60 @@
+
+Locators : 
+
+	  Using Locators To Find The WebElement.
+
+	  Locators Are Present In By (abstract class).
+
+
+Document Object Model ( DOM ) 
+
+In DOM  
+
+<html> 
+<Head> Title </Head>
+<Body>
+<li>,<tr>,<td>,<th><table>,<input>,<a>,<br>,
+<ul>,<ol>,<iframe>,<img>,<p>,<button>,<option>
+<center>,<form>,<label>,<link>,<script>,<div>
+
+	<tagName attributeName = " attributeValue"/>  <button id="button" name="button">
+
+	<tagName Create An Account />
+</Body>
+</html>
+
+
+tagName Must Be In Pink Color.
+
+attributeName must be in Orange Color.
+
+attributeValue must be in Blue Color.
+
+Text must be in Black Color.
+
+***********************************************************************************************************************************************************************
+
+
+Locators : 
+
+          id
+
+	  name 
+
+          Link Text
+
+	  Partial Link Text
+
+	  className
+
+	  tagName
+
+          x-path
+
+          CSS Selector
+
+
+	  
+
+
+***********************************************************************************************	

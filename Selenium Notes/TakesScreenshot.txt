@@ -1,0 +1,27 @@
+Screenshot :
+=============
+
+* A Screenshot in selenium webdriver is used for defect/bug analysis.
+
+* To provide some visual representation (Image format) for the bug, we try to report to capture a
+  screenshot, we need to use the  Takesscreenshot Interface.
+
+* Then downloaded the jar files added into the extended jar files
+
+
+
+TakesScreenshot  (Interface)
+------------------------------
+
+Syntax:
+-------
+
+TakesScreenshot ts = (TakesScreenshot) driver;    ---> Explicit typecasting
+
+File source = ts.getScreenshotAs(OutputType.FILE);
+
+File destination = new File("path\\name.format");
+
+FileUtils.copyFile(source, destination);
+FileHandler.copy(source ,destination);
+

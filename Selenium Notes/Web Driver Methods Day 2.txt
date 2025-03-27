@@ -1,0 +1,78 @@
+WebDriver Methods: 
+--------------------
+
+get ---> Launch the particular url
+
+getTitle ---> to get the current title of the site
+
+getCurrentUrl---> to get the current url of the site
+
+
+manage : 
+        window
+
+		maximize ---> it will maximize the window.
+
+driver.manage().window().maximize();
+
+Navigation methods :
+---------------------
+
+		   to   -> it will navigate to the next url.
+                   
+		   forward  -> it forward to the next page.
+		   
+		   back  -> it back from the current page.
+		   
+		   refresh -> it refresh the site.
+
+
+close: it will close the current active window
+
+quit: it will terminate the entire browser session
+
+
+------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	           
+
+findElement : it will return single webelement
+
+	      its return type is WebElement .
+
+	      when the element is not available on the page, findElement method throws a NoSuchElementException. 
+
+findElements : it interact with multiple webelement
+
+	       its return type is List<WebElement>.
+
+	       when the element is not available on the page, findElements method returns an empty list []. 
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+ 
+
+
+

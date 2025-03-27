@@ -1,0 +1,34 @@
+Constructor :
+=============
+
+* A constructor is a special method of a class or structure in object-oriented programming that initializes a newly created object of that type.
+
+* When we create an object for the class, the default constructor will be executed automatically 
+at the time itself.
+
+* Class Name And Constructor name will be same.
+
+* It is also pascal format.
+
+* It supports method overloading, but it doesn't supports method overriding.
+
+* If class name are different we can't create constructor.
+
+* There is no return type for constructor (void).
+
+
+
+Types :
+
+1. Default Constructor (or) non - parameterized Constructor
+
+2. Parameterized Constructor 
+
+
+
+Constructor Chaining:-
+====================
+
+Constructor chaining is the process of calling one constructor from another constructor with respect to current object. 
+
+

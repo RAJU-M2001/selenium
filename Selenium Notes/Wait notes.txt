@@ -1,0 +1,37 @@
+
+Selenium Web Driver Waits:
+
+	Selenium WebDriver provides two types of waits to perform tests.
+
+1.	Implicit Wait
+2.	Explicit Wait
+
+
+Thread.sleep(4000); // static wait //wait for a specific time.
+Wait or Synchronization // dynamic wait
+
+
+------------------
+Implicit wait :
+-----------------
+
+		The Implicit Wait in Selenium is used to tell the web driver to wait for a certain amount of time before it throws a "No Such Element Exception".
+
+Syntax :  
+
+driver.manage().timeouts().implicitlyWait(TimeOut,TimeUnit.SECONDS);  --> version 3
+
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(value)); --> version 4
+
+
+Explicit wait :
+----------------
+
+		The Explicit Wait in Selenium is used to tell the Web Driver to wait for certain conditions (Expected Conditions) or maximum time exceeded before throwing "ElementNotVisibleException" exception.
+
+	It can be applied only for specified elements.
+
+Syntax :  
+	WebDriverWait wait = new WebDriverWait (driver,30);
+	wait.until(ExpectedConditions.visibilityOf(element));
+        wait.until(ExpectedConditions.invisibilityOf(element));

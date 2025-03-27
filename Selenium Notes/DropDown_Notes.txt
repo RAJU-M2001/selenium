@@ -1,0 +1,93 @@
+DropDown :
+------------
+
+Dropdown is a webelement where user can select a value from multiple values listed in the Dropdown.
+
+Types:
+-------- 
+
+	 1. Single dropdown
+
+	 2. Multiple dropdown
+
+
+How to handle:
+--------------
+
+* Go to website
+* Dropdown are handled using the Select class
+* The elements are declared in the Dom under <select> tag
+
+
+Syntax : 
+
+	Select s = new Select(Webelement);
+
+Select : 
+
+	Select is a class...
+
+	
+Select Methods : 
+
+
+		1. selectByValue(" ")
+
+                   refname.selectByValue("value");
+                   select the option by its value
+
+		2. selectByIndex()
+
+                   refname.selectByIndex(index);
+                   select the option by its index
+
+		3. selectByVisibleText()
+
+                   refname.selectByText("Text");
+                   select the option by its Text
+
+		4. deselectByValue()
+
+		5. deselectByIndex()
+
+		6. deselectByVisibleText()
+
+		7. isMultiple() -- > To check the dropdown is single or multiple.
+
+		8. getOptions()  ---> 
+
+				It will return all the options in dropdown.
+
+				its return type is List<WebElement>.
+
+
+		9. getAllSelectedOptions() --> 
+
+					it will return all selected options in dropdown.
+
+					its return type is List<WebElement>.
+
+					it won't Accept in single dropdown.
+
+		10. getFirstSelectedOption() : 
+
+					It will return the first selected options in dropdown.
+
+					its return type is WebElement.
+
+					it will accept in single dropdown.
+
+
+		11. deselectAll() : It wont accept in single dropdown.
+
+					  
+
+
+
+
+
+
+
+
+ 
+		

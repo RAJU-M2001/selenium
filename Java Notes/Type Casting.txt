@@ -1,0 +1,70 @@
+Type Casting:
+=============
+
+Convert a value from one datatype to another datatype is known as type casting.
+
+
+Types
+======
+1. Widening Type casting
+2. Narrowing Type casting
+
+
+
+1. Widening Type Casting:
+========================
+
+* Converting a lower data type into a higher data type.
+
+* It is also known as implicit conversion.
+
+* It is done automatically.
+
+* It is safe and there is no chance to lose data.
+
+
+Eg:-
+
+byte-> short-> int-> long
+
+2. Narrowing Type Casting:
+========================
+
+* Converting a Higher data type into a lower data type.
+
+* It is also known as explicit conversion.
+
+* It is done by manually by the programmer.
+
+* If we do not perform casting then the compiler reports a compile time error.
+
+
+Syntax:-
+
+Datatype ref.name = (Datatype) variable name;  
+
+
+double -> float -> long -> int
+
+
+  -126  -127  -128    0   1  2 3 .......... 127, 128, 129
+
+
+
+Upcasting :
+===========
+
+Assigning child class object into parent class.
+
+It is possible in java
+
+
+Down Casting:
+==============
+
+Assigning parent class object into child class.
+
+It is not possible in java
+
+
+

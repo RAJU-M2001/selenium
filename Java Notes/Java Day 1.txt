@@ -1,0 +1,211 @@
+                                                                 CORE JAVA Introduction
+                                                              --------------------------
+
+1. What is Java? 
+  ============
+-> Java is a Simple programming language.
+-> Writing, compiling and debugging is easy.
+-> It can be reused. 
+
+2. History of java :-
+  ===============
+->James Gosling initiated the Java language,      project in June 1991.
+->Firstly, it was called "Greentalk" by James Gosling.
+->After that, it was called Oak and was developed as a part of the Green project.   ---> Oak industries
+->Oak is a symbol of strength and chosen as a national tree of many countries like the U.S.A., France. 
+->In 1995, Oak was renamed as "Java".
+->SunMicrosoftSystem-->Currently Own by Oracle 
+
+
+3. Java features (or) importance of java (or) why we go for java?
+    =====================================================
+-> Open source (free of cost)
+-> Secured (virtual firewall between application and the computer)
+-> Multi Tasking – (different task can be completed at a time)
+-> Multi Threading - (More task can be completed at a time)
+-> Platform independent
+ (JAVA compiler  converts source code into byte code, can be executed in any platform). ----> Supports all OS [windows, Mac, Linux]
+-> Portable (write once run anywhere) WORA
+
+4. Java architecture:-
+    =================
+JDK:
+ 
+-> JDK Means Java Development Kit
+-> Whenever if we want to run or develop a program in java, jdk is essential.
+-> JDK version 1.0 to 1.22
+-> Latest Version  1.22
+-> Standard version is 1.8, 1.11, 1.17, 1.21 (LTS) Long Term Support
+
+JRE:
+ 
+-> JRE Means Java Runtime Environment
+-> It contains predefined library files (.class files)
+
+JVM: 
+
+-> JVM Means Java Virtual Machine
+-> It is  mainly used for memory allocation
+-> it is not physically exists.
+
+JDK = JVM + JRE
+
+
+
+5. Tools:
+    =====
+-> Notepad
+-> Netbeans         -  Paid tool
+-> Eclipse (Integrated Development Environment)  -  User friendly write, save, run.
+-> J developer      -  Oracle
+-> RAD              -  IBM
+
+
+
+6. OOPS:
+    ======
+(Object Oriented Programming Structure/System)
+
+
+OOPS is method of implementation in which program is organised as collection of Class, Object and method.
+Project(Title) -> Package -> Class -> Method -> Object
+
+
+7. Coding standards:
+    ================
+
+There are two types of coding standards:
+•	Pascal Standard
+•	Camel Standard
+
+PASCAL: Every words First Letter must be in Capital
+Eg: Employee_Name, EmployeeName- (used in Project name and class name)
+
+CAMEL: Except first word, remaining words First letter must be Capital. 
+Eg: employee_Name, employeeDetails - (used in Object, method and variable)
+
+
+Package - No coding standard, Starts with (com.packagename  (or)  org.packagename)
+
+
+
+8.  Orders:-
+    =========
+ 
+                    *Project ----> Collection of packages  
+                    *Package ----> Collection of Classes
+                    *Class   ----> Collection of methods, Variables, Object 
+                    *Method  ----> Set of actions / logic will be performed 
+                    *Object  ----> It is used to call the method, runtime memory allocation, 
+                                   Instance of class
+
+
+9.   Eclipse Project Creation:
+      ====================== 
+        File(Click) -> New -> JavaProject -> ProjectName(Pascal) -> Finish
+
+       Package Creation:
+
+	Src(R.C) -> New -> Package -> Name(com. or org.)  -> Finish
+
+       Class Creation:
+
+	Package(R.C) -> New -> Class -> Name(Pascal) -> Finish
+    
+      Method Creation:
+=======================
+
+    void method_Name(){      ()---> Parenthesis        
+
+
+}
+
+    Main Method:
+=================
+ 
+  public static void main (String[]args){    
+
+}
+
+Object Creation:
+ ===============
+Syntax:
+=======
+
+Classname refName/objName = new Classname();
+refName.method_Name();
+
+}
+
+
+10.  Datatypes: 
+    ===========
+                 
+     There are Two types:
+
+                     1. Primitive
+                     2. Non Primitive
+
+•	Primitive  : - 
+                                       1. A variable can store only one value       
+                                       2. Types :                   8 types….byte, short, int, long, float, double, char, boolean.
+
+•	Non Primitive :- 
+
+                          1. A variable can store group of values. 
+                          2. Types :                                2 types : Array and String.
+
+
+          DATA TYPE	                                MEMORY SIZE	                                DEFAULT VALUE	                          WRAPPER CLASS
+    ------------------                             ---------------------                           ------------------------              ---------------------------  
+          byte	                                         1 byte (8)	                                   0	                                        Byte
+         short	                                         2 	                                           0	                                        Short
+          int	                                         4 	                                           0	                                       Integer
+         long	                                         8 	                                           0	                                        Long
+        float(upto 6 digits)	                         4 	                                           0.0	                                        Float
+        double(upto to 15 digits)                        8 	                                           0.0	                                        Double
+         char	                                         2	                                           -	                                       Character
+         boolean	                               1 Bit	                                          false	                                        Boolean
+
+Syntax:
+
+             Datatype  variableName/ref.name = Value;
+
+                        eg:-         byte b = 100;   b1 = 1000    // 1b = 1000  ---> Invalid
+                                     int  number  =  7600;
+                                    long value = 1245786245l;
+                                    float percent = 7.369f;
+
+
+Range of datatype:
+
+		-2^(n-1)  to 2^(n-1)-1
+
+               Eg:
+                             1.	byte :  1 byte = 8 bits
+                                    1(8)
+                                    n=8
+                                  -2^(8-1) to 2^(8-1)-1
+                               Range Value   =  -128 to 127
+
+
+                             2. short : 2 bytes = 16 bits
+                                  2(8)
+                                  n=16 
+                                 -2^(16-1) to 2^(16-1)-1
+                               Range Value = -32,768 to 32,767 
+
+
+
+
+                            3. int :  4 bytes   =  32 bits
+                                 4(8)
+                                  n=32
+                                -2^(32-1)  to 2^(32-1)-1
+                            Range Value = -2,147,483,648 to  2,147,483,647
+
+
+
+
+                      
+                       

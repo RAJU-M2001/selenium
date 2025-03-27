@@ -1,0 +1,289 @@
+Wrapper Class :
+=============
+
+* Convert datatype into class object.
+
+
+Collection :
+==========
+	   A Group Of Objects is called Collection.
+
+	   It is an Interface.
+
+	   It Supports Dissimiliar datatype.
+
+	   It Has Low Memory Wastage.
+
+	   It doesn't have any Fixed Length.
+
+
+
+Interview Qn:
+============
+1. What is the super class of all classes?
+= Object (parent for all class)
+
+***********************************************************************************************
+Types :
+=======
+
+List ( Interface )
+
+Set  ( Interface )
+
+Map ( Separated Interface )
+
+
+
+List  : 
+----------
+	It is an Interface.
+
+	It is a index based.
+
+	It does allow duplicate values.
+
+  	It Prints in insertion order.
+
+
+Syntax :
+--------------
+		List <WrapperClass> refName = new (types of list) <WrapperClass>();
+
+	where 
+
+		List ----> Interface
+		Types of List -----> Class
+		< > ----> Generics -----> For Type Safety.
+
+
+***********************************************************************************************
+
+                                                  *****************List Types :********************* 
+
+* Array List ( Class ) 				       * Linked List  ( Class )                                                   * Vector ( Class )
+								
+								
+								
+
+Array List :                                                                   		          Linked List :                
+==========                                                                                        ===========
+                        
+Syntax :                                                                                           Syntax :
+--------------                                                                                     -------------
+List <WrapperClass> refName = new ArrayList<WrapperClass> ();                                      List <WrapperClass> refName = new LinkedList<WrapperClass> ();
+
+
+	
+Def : 										     Def :							
+	Searching And Retrieving is very easy.						        Insertion And Deletion is Easy
+	Insertion And Deletion is difficult						        Searching And Retrieving is difficult.	
+	ASynchronized. 								                ASynchronized. 
+	Thread is not  Safe.... But fast Process				                Thread is not  Safe.... But fast Process
+
+
+
+Vector :
+========
+Syntax :
+-------------- 
+	List <WrapperClass> refName = new Vector<WrapperClass> ();
+	    
+Definition :
+	     Synchronized
+	     Thread Safe ... But it is a slow process
+
+
+**********************************************************************************************************************************************************************
+
+Methods :
+=========== 
+
+
+add()   size()    get()    set()   remove()  indexOf()   contains()    clear()   addAll()  retainAll()  removeAll()  
+
+
+
+*************************************************************************************************************************************************************************
+ 
+
+Set ( Interface ) :
+===================
+
+		  It is a Interface.
+		
+		  It does not have any specific order.
+
+		  It does not allow Duplicate values.
+
+		  It is a value based.
+
+
+Syntax : Set <WrapperClass> refName = new TypesOfSet <WrapperClass> ();
+		  
+
+Types : 
+------------
+
+HashSet (class)
+
+       LinkedHashSet (class)
+
+                    TreeSet (class)
+
+HashSet : 
+---------------
+
+	It Prints in Random Order.
+	It will not allow Duplicate Values.
+	It will allow Single null value . not a duplicate null values.
+
+LinkedHashSet : 
+-----------------------
+
+	It Prints in Insertion Order.
+	It will not allow Duplicate Values.
+	It will allow Single null value . not a duplicate null values.
+
+TreeSet : 
+---------------
+
+	It Prints in Ascending Order.
+	It will not allow Duplicate Values.
+	It will not allow even Single null value .
+
+
+***************************************************************************************************************************************************************************
+
+
+
+
+Map [ Separate Interface ]
+-------------------------------
+
+		It is A Key And Value Pair.
+		
+		Key + Value = One Entry
+
+
+  Key              Value
+ ------           --------
+
+  Integer          String
+
+  RollNumber        Names
+ 
+   1                Arun
+   2                Arun
+   3                Aravindh
+   3                Bala
+   null             Vikram
+   null             Karthick
+   4                Ravi
+   5                Ravi
+  
+
+
+
+
+
+		Key ----> 
+
+			It will not allow duplicate, it can be override.
+		
+			It will allow override null [ duplicate ]
+
+                value ----->
+
+   			 The value will allow duplicate values.
+
+			 The value will allow the duplicate null .
+
+
+             	Map ----- > ( Curly Bases ) { }     {1=Arun , 2=Arun,  3=Bala}
+
+Syntax : 
+
+	Map<Key,Value> refName = new TypesOfMap < Key,Value > ();
+eg :
+	Map<Integer,String> m = new HashMap<Integer, String > ();
+
+
+Types :
+========
+
+1. HashMap (Class)
+2. LinkedHashMap (Class)
+3. TreeMap (Class)
+
+
+
+
+1. HashMap :
+  -------------------
+
+* It is a random order. (Based on Key)
+* Key will allows the only one null
+* Value allow the duplicate null
+
+
+Syntax :
+=========
+
+Map <Integer , String > refName = new HashMap <Integer , String>();
+
+
+
+2. LinkedHashMap :
+  ---------------------------
+
+* Insertion order
+* Key will allows the only one null
+* Value allow the duplicate null
+
+
+Syntax :
+=========
+
+Map < Integer , String > refName = new LinkedHashMap < Integer , String > ();
+
+
+3. TreeMap :
+-------------------
+
+* Ascending Order (Based on key)
+* Key won't allow even single null value
+* value allow the duplicate null
+
+ 
+Syntax :-
+========
+Map < Integer , String > refName = new TreeMap < Integer , String > ();
+
+
+***********************************************************************************************************************************************************
+
+Map Methods :
+
+
+put()  size()   get()  keySet()   values()   containsKey()   containsValue()  entrySet()  
+
+
+***********************************************************************************************************************************************************
+
+Iterator  
+===========                                                                     
+
+Used In Collection                                                       
+
+Traverse in a forward direction                                  
+
+
+Iterator<> ref = listrefName.iterator();                      
+while(ref.hasNext()){
+syso(ref.next());
+}                                                                              
+
+
+
+				

@@ -1,0 +1,50 @@
+Frame : 
+
+	It will have separate html Dom structure within the page.
+
+	we have to switch to the frame ---- like window and alert.
+
+	tagname => iframe
+
+Types Of frame:
+
+1. Single Frame
+2. Nested Frame
+
+
+
+Types : 
+
+	index
+
+	id (or) name
+
+	webelement
+
+
+parentframe : 
+
+	    From child frame to parent frame.(to outer)
+            driver.switchTo().parentFrame();
+
+defaultcontent : 
+
+	    From frame to the main page. (application)
+            driver.switchTo().defaultContent(); 
+
+*******************************************************************************************************
+
+Method Overloading :
+
+driver.switchTo().frame(id)
+
+driver.switchTo().frame(index)
+
+driver.switchTo().frame(webelement)
+
+*******************************************************************************************************
+
+
+
+
+	
